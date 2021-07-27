@@ -23,7 +23,7 @@
     "mocha": "*",
     "prettier": "^2.1.2",
     "ts-node": "^10.1.0",
-    "tslib": "^1.10.0",
+    "tslib": "^2.3.0",
     "typescript": "^3.5.3"
   },
   "homepage": "https://github.com/azure/azure-rest-api-specs",
