@@ -53,15 +53,6 @@ interface QueueClient extends Queue {}
 @@clientNamespace(Queue, "Azure.Storage.Queues", "rust,go");
 
 @@clientName(MetadataHeaders.metadata, "metadata", "rust");
-@@clientName(SentMessage, "SentMessageInternal", "rust");
-
-@@alternateType(
-  ListOfSentMessage,
-  {
-    identity: "crate::models::SentMessage",
-  },
-  "rust"
-);
 
 @@scope(Service.getUserDelegationKey, "!rust");
 
